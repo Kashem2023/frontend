@@ -97,7 +97,7 @@ const SingleProduct = () => {
                                     {
                                         product?.Option.map((item) => (
                                             <div key={item}>
-                                                <input type="checkbox" onChange={handleChecked} id="vehicle1" name="vehicle1" value={item} checked={Option === item} />
+                                                <input type="checkbox" onChange={handleChecked} id="vehicle1" name="vehicle1" value={item} checked={Option === item.split(' ')[0]} />
                                                 <label className='ml-3' for="vehicle1">£ {item}</label><br />
                                             </div>
                                         ))
