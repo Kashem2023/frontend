@@ -1,0 +1,5 @@
+stipe api key = pk_test_51MGmmbDG06gMbGlubEdCwCu7dPeDE0AZTnPuAZGHpPdSqbYTOiEY5VVGgmskyR3KFZKEwz0wIZiFxnYnaxJFO0eE00o5AU8lr3
+
+
+
+stripe secret key = sk_test_51MGmmbDG06gMbGluyf5b48oElCGEQsU5k4tZdvMhuQrVvP7vxPuKumoYNGrRSLh7IGqWMRmle5xLOaFHqGSCmaza00IzOcIdsG
