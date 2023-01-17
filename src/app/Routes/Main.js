@@ -18,6 +18,7 @@ import ProductsPage from '../Pages/ProductsPage'
 import Register from '../Pages/Register'
 import StripeSuccess from '../Pages/StripeSuccess'
 import SuccessContent from '../Pages/Success'
+import Contact from '../Pages/Contact'
 
 
 const Main = () => {
@@ -63,6 +64,7 @@ const Main = () => {
                 <Route path='/product' element={<ProductsPage />} />
                 <Route path="/products/:id" element={<SingleProduct />} />
                 <Route path="/cart" element={<Cart />} />
+                <Route path="/contact" element={<Contact />} />
 
                 <Route path="/my-account" element={user ? <MyAccout /> : <Login />} >
                     <Route path='' element={<Dashboard />} />

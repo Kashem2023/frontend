@@ -17,7 +17,7 @@ const Footer = ({ logo }) => {
                                 <FiPhoneCall className="text-color mt-[5px]" />
                                 <div className="ml-4">
                                     <p>Hotline 24/7:</p>
-                                    <h3 className="text-2xl font-bold">(+880) 12345678 </h3>
+                                    <a href='https://api.whatsapp.com/send?phone=07846732816' className="text-2xl font-bold">07846 732816</a>
                                 </div>
                             </span>
                             <span className="flex !mt-5">
@@ -39,8 +39,8 @@ const Footer = ({ logo }) => {
                                 text="About Us"
                             />
                             <FooterLink
-                                href="/"
-                                text="relaxsleepingpillss"
+                                href="/contact"
+                                text="Contact US"
                             />
                             <FooterLink
                                 href="/"
@@ -95,7 +95,7 @@ const Footer = ({ logo }) => {
 
 const FooterLink = ({ href = "#", text }) => (
     <li>
-        <Link href={href}>
+        <Link to={href}>
             <a href={href}>{text}</a>
         </Link>
     </li>
