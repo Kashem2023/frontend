@@ -174,7 +174,7 @@ const OrderDetails = ({ billingAdress }) => {
         <div>
 
             <h3 className="text-2xl mb-4">Your order</h3>
-            <div className="bg-gray-100 p-5 rounded-md w-[360px]">
+            <div className="bg-gray-100 p-5 rounded-md md:w-[360px]">
                 <div className="flex justify-between pb-5 border-b">
                     <h2 className="text-base font-bold">PRODUCT</h2>
                     <h2 className="text-base font-bold">TOTAL</h2>

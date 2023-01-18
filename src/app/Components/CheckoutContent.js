@@ -19,7 +19,7 @@ const CheckoutContent = () => {
     })
 
     return (
-        <div className='flex justify-between'>
+        <div className='flex justify-between flex-col md:flex-row overflow-x-hidden'>
             <OrderSubmit setBillingAdress={setBillingAdress} billingAdress={billingAdress}/>
             <OrderDetails billingAdress={billingAdress}/>
         </div>
